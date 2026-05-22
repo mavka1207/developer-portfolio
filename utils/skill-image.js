@@ -94,6 +94,7 @@ import jenkins from '../app/assets/svg/skills/jenkins.svg';
 import sonarqube from '../app/assets/svg/skills/sonarqube.svg';
 import githubactions from '../app/assets/svg/skills/githubactions.svg';
 import render from '../app/assets/svg/skills/render.svg';
+import cicd from '../app/assets/svg/skills/cicd.svg';
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
@@ -286,6 +287,8 @@ export const skillsImage = (skill) => {
       return githubactions;
     case 'render':
       return render;
+    case 'ci/cd':
+      return cicd;
     default:
       break;
   }

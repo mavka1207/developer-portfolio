@@ -4,9 +4,7 @@ export const personalData = {
   designation: " Frontend & mobile developer",
   description: `My name is Kateryna Ovsiienko and I’m a frontend & mobile developer with a QA background. I enjoy learning new technologies and solving real problems through code.
 
-For about four years I worked as a QA engineer and team lead on web projects, which taught me to think about product quality, user flows, communication, and edge cases. Now I’m finishing my software development studies at grit:lab, focusing on Flutter, modern frontend development, APIs, and application structure.
-
-I bring attention to detail, structured thinking, and a habit of looking beyond the happy path. I like building interfaces that are clear, practical, and pleasant to use, and features that are not only functional but also reliable and polished.`,
+For about four years I worked as a QA engineer and team lead on web projects, and now I’m finishing my software development studies at grit:lab, focusing on Flutter, modern frontend development, and APIs. I bring attention to detail, structured thinking, and a habit of looking beyond the happy path, and I like building interfaces that are clear, practical, and reliable.`,
   email: 'ketio403@gmail.com',
   phone: '+358465423664',
   address: 'Mariehamn, Åland Islands',

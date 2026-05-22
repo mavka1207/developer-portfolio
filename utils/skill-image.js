@@ -83,7 +83,9 @@ import linux from '../app/assets/svg/skills/linux.svg'
 import sqlalchemy from '../app/assets/svg/skills/sqlalchemy.svg'
 import fastapi from '../app/assets/svg/skills/fastapi.svg'
 
-
+import jira from '../app/assets/svg/skills/jira.svg';
+import supabase from '../app/assets/svg/skills/supabase.svg';
+import restapi from '../app/assets/svg/skills/rest-api.svg';
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
@@ -254,6 +256,12 @@ export const skillsImage = (skill) => {
       return sqlalchemy;
     case 'fastapi':
       return fastapi;
+    case 'jira':
+      return jira;
+    case 'supabase':
+      return supabase;
+    case 'rest api':
+      return restapi;
     default:
       break;
   }

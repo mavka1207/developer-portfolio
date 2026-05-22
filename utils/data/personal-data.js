@@ -1,8 +1,12 @@
 export const personalData = {
-  name: "Kateryna Ovsiienko.",
+  name: "Kateryna Ovsiienko -",
   profile: '/my-photo.png',
-  designation: " Frontend & Mobile Developer",
-  description: "My name is Kateryna Ovsiienko. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
+  designation: " Frontend & mobile developer",
+  description: `My name is Kateryna Ovsiienko and I’m a frontend & mobile developer with a QA background. I enjoy learning new technologies and solving real problems through code.
+
+For about four years I worked as a QA engineer and team lead on web projects, which taught me to think about product quality, user flows, communication, and edge cases. Now I’m finishing my software development studies at grit:lab, focusing on Flutter, modern frontend development, APIs, and application structure.
+
+I bring attention to detail, structured thinking, and a habit of looking beyond the happy path. I like building interfaces that are clear, practical, and pleasant to use, and features that are not only functional but also reliable and polished.`,
   email: 'ketio403@gmail.com',
   phone: '+358465423664',
   address: 'Mariehamn, Åland Islands',
@@ -13,5 +17,5 @@ export const personalData = {
   stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
   leetcode: "https://leetcode.com/said3812/",
   devUsername: "mavka1207",
-  resume: "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing"
+  resume: "/Kateryna_Ovsiienko_CV2.pdf"
 }

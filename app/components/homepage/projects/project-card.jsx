@@ -63,14 +63,31 @@ function ProjectCard({ project }) {
           </div>
           <div><span className="text-gray-400">{`};`}</span></div>
         </code>
-        {project.code && (
-          <div className="mt-6 flex justify-end">
-            <a href={project.code} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-6 py-2 bg-gradient-to-r from-violet-600 to-pink-500 hover:scale-105 rounded-full text-white transition-all text-sm font-sans font-medium">
+      </div>
+      {(project.code || project.demo) && (
+        <div className="border-t-[2px] border-indigo-900 px-4 lg:px-8 py-4 lg:py-6 flex flex-wrap gap-4">
+          {project.code && (
+            <a
+              href={project.code}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 px-5 py-2 lg:px-6 lg:py-2.5 bg-gradient-to-r from-violet-600 to-pink-500 hover:scale-105 rounded-full text-white transition-all text-xs lg:text-sm font-sans font-medium"
+            >
               View on GitHub
             </a>
-          </div>
-        )}
-      </div>
+          )}
+          {project.demo && (
+            <a
+              href={project.demo}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 px-5 py-2 lg:px-6 lg:py-2.5 bg-gradient-to-r from-pink-500 to-violet-600 hover:scale-105 rounded-full text-white transition-all text-xs lg:text-sm font-sans font-medium"
+            >
+              Live Demo
+            </a>
+          )}
+        </div>
+      )}
     </div>
   );
 };

@@ -1,7 +1,7 @@
 export const contactsData = {
     email: 'ketio403@gmail.com',
     phone: '+358465423664',
-    address: 'Mariehamn, Åland Islands ',
+    address: 'Mariehamn, Åland Islands, Finland',
     github: 'https://github.com/mavka1207',
     // facebook: 'https://www.facebook.com/abusaid.riyaz/',
     linkedIn: 'https://www.linkedin.com/in/kateryna-ovsiienko-1a4447198/',

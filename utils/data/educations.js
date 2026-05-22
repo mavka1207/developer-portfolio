@@ -1,20 +1,20 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "Software Development Program",
+    duration: "2024 – Present",
+    institution: "grit:lab, Mariehamn, Åland Islands",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: "Basics of QA Engineer",
+    duration: "2020",
+    institution: "QA TestLab, Kyiv, Ukraine",
   },
   {
     id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
-  }
-]
+    title: "QA Engineer Training",
+    duration: "2019",
+    institution: "Infopulse Univer, Kyiv, Ukraine",
+  },
+];

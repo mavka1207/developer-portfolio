@@ -63,6 +63,13 @@ function ProjectCard({ project }) {
           </div>
           <div><span className="text-gray-400">{`};`}</span></div>
         </code>
+        {project.code && (
+          <div className="mt-6 flex justify-end">
+            <a href={project.code} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-6 py-2 bg-gradient-to-r from-violet-600 to-pink-500 hover:scale-105 rounded-full text-white transition-all text-sm font-sans font-medium">
+              View on GitHub
+            </a>
+          </div>
+        )}
       </div>
     </div>
   );

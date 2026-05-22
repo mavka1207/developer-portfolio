@@ -21,7 +21,15 @@ export const skillsData = [
   'Photoshop',
   'Illustrator',
   'Jira',
-  'MS Office',
+  'Microsoft Office',
+  'Kafka',
+  'Java',
+  'Spring Boot',
+  'Postman',
+  'Graphql',
+  'Render',
+  'Cypress',
+  'Jenkins',
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.

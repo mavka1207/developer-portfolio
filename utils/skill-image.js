@@ -86,6 +86,14 @@ import fastapi from '../app/assets/svg/skills/fastapi.svg'
 import jira from '../app/assets/svg/skills/jira.svg';
 import supabase from '../app/assets/svg/skills/supabase.svg';
 import restapi from '../app/assets/svg/skills/rest-api.svg';
+import kafka from '../app/assets/svg/skills/kafka.svg';
+import springboot from '../app/assets/svg/skills/springboot.svg';
+import postman from '../app/assets/svg/skills/postman.svg';
+import cypress from '../app/assets/svg/skills/cypress.svg';
+import jenkins from '../app/assets/svg/skills/jenkins.svg';
+import sonarqube from '../app/assets/svg/skills/sonarqube.svg';
+import githubactions from '../app/assets/svg/skills/githubactions.svg';
+import render from '../app/assets/svg/skills/render.svg';
 
 export const skillsImage = (skill) => {
   const skillID = skill.toLowerCase();
@@ -262,6 +270,22 @@ export const skillsImage = (skill) => {
       return supabase;
     case 'rest api':
       return restapi;
+    case 'kafka':
+      return kafka;
+    case 'spring boot':
+      return springboot;
+    case 'postman':
+      return postman;
+    case 'cypress':
+      return cypress;
+    case 'jenkins':
+      return jenkins;
+    case 'sonarqube':
+      return sonarqube;
+    case 'github actions':
+      return githubactions;
+    case 'render':
+      return render;
     default:
       break;
   }
